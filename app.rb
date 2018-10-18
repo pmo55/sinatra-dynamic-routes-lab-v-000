@@ -33,6 +33,8 @@ class App < Sinatra::Base
           "#{num_1+num_2}"
         when 'subtract'
           "#{num_2-num_1}"
+        when 'multiply'
+          "#{num_1 * num_2}"
         
     end
   end
